@@ -1,0 +1,45 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+  - name: All
+    filter: "all"
+  - name: Professional
+    filter: "professional"
+  - name: Academic
+    filter: "academic"
+  - name: Hobby
+    filter: "hobby"
+
+# your projects
+projects:
+  - name: AFLOWPI
+    role: Contributor
+    timeline: "Jan 2018 - Oct 2018"
+    repo: https://github.com/marcofornari/AFLOWpi
+    #url: ""
+    summary: Minimalist infrastructure for high-throughput calculations
+    tags: ["professional", "automation", "academic"]
+
+  - name: AiiDA-Environ
+    role: Developer
+    timeline: "Sept 2020 - Present"
+    repo: https://github.com/environ-developers/aiida-environ
+    summary: AiiDA plugin for the Environ software package
+    tags: ["professional", "automation", "academic"]
+
+  - name: Hunger
+    role: Owner
+    timeline: "Sept 2019 - Jul 2020"
+    repo: https://github.com/matthew-truscott/hunger # If your project is a public repo on GitHub, then provide this link. it will show star count.
+    #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+    summary: Hunger Games command line simulator in Rust
+    tags: ["hobby", "rust"]
